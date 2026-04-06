@@ -5,18 +5,73 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Dance with Noorr Khan</title>
 
+<!-- Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
-body{margin:0;font-family:'Poppins',sans-serif;background:linear-gradient(135deg,#050505,#121212,#1c1c1c);color:#fff;text-align:center}
-header{padding:100px 20px;background:radial-gradient(circle at top,#000,#050505)}
-h1{font-family:'Cinzel',serif;color:#D4AF37;font-size:52px;letter-spacing:2px}
+body{
+  margin:0;
+  font-family:'Poppins',sans-serif;
+  background:linear-gradient(135deg,#050505,#121212,#1c1c1c);
+  color:#fff;
+  text-align:center;
+}
+header{
+  position:relative;
+  background:#000;
+  color:#fff;
+}
+header img.cover{
+  width:100%;
+  max-height:500px;
+  object-fit:cover;
+}
+header h1{
+  font-family:'Cinzel',serif;
+  color:#D4AF37;
+  font-size:52px;
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  text-shadow: 2px 2px 10px #000;
+}
+header p{
+  position:absolute;
+  top:65%;
+  left:50%;
+  transform:translateX(-50%);
+  font-size:20px;
+  font-weight:500;
+  text-shadow:1px 1px 8px #000;
+}
+.btn{
+  background:linear-gradient(45deg,#D4AF37,#FF8C00);
+  padding:14px 30px;
+  color:#000;
+  text-decoration:none;
+  border-radius:30px;
+  display:inline-block;
+  margin-top:20px;
+  font-weight:bold;
+}
+section{padding:80px 20px}
 h2{color:#FF8C00;margin-bottom:20px}
 p{max-width:800px;margin:auto;line-height:1.8;opacity:0.9}
-.btn{background:linear-gradient(45deg,#D4AF37,#FF8C00);padding:14px 30px;color:#000;text-decoration:none;border-radius:30px;display:inline-block;margin-top:20px;font-weight:bold}
-section{padding:80px 20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:30px}
-.card{background:#111;padding:15px;border-radius:15px;box-shadow:0 5px 25px rgba(0,0,0,0.7);transition:0.3s}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  margin-top:30px;
+}
+.card{
+  background:#111;
+  padding:15px;
+  border-radius:15px;
+  box-shadow:0 5px 25px rgba(0,0,0,0.7);
+  transition:0.3s;
+}
 .card:hover{transform:scale(1.05)}
 .card p{margin-top:10px;font-size:14px}
 img,iframe{width:100%;border-radius:12px}
@@ -26,53 +81,53 @@ footer{background:#000;padding:20px}
 
 <body>
 
+<!-- COVER / PROFILE IMAGE -->
 <header>
+<img class="cover" src="https://drive.google.com/file/d/1EGjZeaS1eR9ZzPhgDCUaCKXVmdjj7Bn3/view?usp=drive_link" alt="Dance with Noorr Khan">
 <h1>Dance with Noorr Khan</h1>
 <p>Luxury Wedding • Stage • Competition Choreography 💃🔥</p>
 <a class="btn" href="https://wa.me/919167439223">Book Now</a>
 </header>
 
+<!-- ABOUT -->
 <section>
 <h2>About</h2>
 <p>
-Professional Choreographer & Celebrity Trainer with 21+ years experience.
-55,000+ students trained.
-Worked in 60+ films as Background Dancer & Assistant Choreographer and choreographed multiple album songs across Hindi, Marathi, Bhojpuri & Gujarati industries.
+Professional Choreographer & Celebrity Trainer with 21+ years experience.<br>
+55,000+ students trained.<br>
+Worked in 60+ films as Background Dancer & Assistant Choreographer and choreographed multiple album songs across Hindi, Marathi, Bhojpuri & Gujarati industries.<br>
 We provide high-end choreography services for weddings, competitions, schools, corporate & events with a professional team.
 </p>
 </section>
 
+<!-- INSTAGRAM VIDEOS -->
 <section>
 <h2>Performances</h2>
 <div class="grid">
-
-<div class="card"><iframe src="https://www.instagram.com/p/POST1/embed" height="400"></iframe><p>Wedding Performance</p></div>
-<div class="card"><iframe src="https://www.instagram.com/p/POST2/embed" height="400"></iframe><p>Stage Show</p></div>
-<div class="card"><iframe src="https://www.instagram.com/p/POST3/embed" height="400"></iframe><p>Couple Dance</p></div>
-
-<!-- ADD MORE VIDEOS BELOW -->
+<div class="card"><iframe src="https://www.instagram.com/p/DUE9YGJEXfm/embed" height="400"></iframe><p>Wedding Performance</p></div>
+<div class="card"><iframe src="https://www.instagram.com/reel/DT9QpU6kwup/embed" height="400"></iframe><p>Stage Show</p></div>
+<div class="card"><iframe src="https://www.instagram.com/reel/CugI7NvISRe/embed" height="400"></iframe><p>Rehearsal</p></div>
+<!-- COPY BELOW FOR MORE VIDEOS -->
 <!-- <div class="card"><iframe src="https://www.instagram.com/p/POST/embed" height="400"></iframe><p>Title</p></div> -->
-
 </div>
 </section>
 
+<!-- GALLERY -->
 <section>
 <h2>Gallery</h2>
 <div class="grid">
-
 <div class="card"><img src="IMAGE1"><p>Wedding Sangeet 💃</p></div>
 <div class="card"><img src="IMAGE2"><p>Couple First Dance ❤️</p></div>
 <div class="card"><img src="IMAGE3"><p>Grand Stage Performance 🔥</p></div>
 <div class="card"><img src="IMAGE4"><p>School Annual Day 🎭</p></div>
 <div class="card"><img src="IMAGE5"><p>Competition Routine 🏆</p></div>
 <div class="card"><img src="IMAGE6"><p>Kids Dance Training 👧🕺</p></div>
-
-<!-- COPY THIS FOR MORE IMAGES -->
+<!-- COPY BELOW FOR MORE IMAGES -->
 <!-- <div class="card"><img src="IMAGE7"><p>Title</p></div> -->
-
 </div>
 </section>
 
+<!-- SERVICES -->
 <section>
 <h2>Services</h2>
 <div class="grid">
@@ -85,13 +140,14 @@ We provide high-end choreography services for weddings, competitions, schools, c
 </div>
 </section>
 
+<!-- SOCIAL LINKS -->
 <section>
 <h2>Follow</h2>
-<a class="btn" href="https://www.instagram.com/noorrkhanofficial/">Instagram</a>
-<br>
+<a class="btn" href="https://www.instagram.com/noorrkhanofficial/">Instagram</a><br>
 <a class="btn" href="https://www.facebook.com/noordanceislife">Facebook</a>
 </section>
 
+<!-- CONTACT -->
 <section>
 <h2>Contact</h2>
 <p>Limited premium slots available – Book now</p>
